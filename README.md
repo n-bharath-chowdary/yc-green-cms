@@ -103,8 +103,7 @@ Automate version snapshots with a single click.
 
 File: auto_commit.bat
 
-bat
-```
+```bat
 @echo off
 cd /d D:\YCombinator\YCombinator
 git add -A
