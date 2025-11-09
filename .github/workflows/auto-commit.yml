@@ -21,5 +21,5 @@ jobs:
       - name: Auto commit changes
         run: |
           git add -A
-          git commit -m "Automated commit - $(date)" || echo "No changes to commit"
+          git commit -m "Automated commit - $(date)" || true
           git push
