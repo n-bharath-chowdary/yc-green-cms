@@ -1,0 +1,55 @@
+@import './components/navbar.css';
+@import './components/work.css';
+@import './components/home.css';
+@import './components/apply.css';
+@import './components/companies.css';
+@import './components/about.css';
+@import './components/library.css';
+@import './components/blog.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #8CFF98;
+  color: #22421E;
+}
+
+a {
+  color: #80FA68;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #399229;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #44FF00;
+  color: #22421E;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #399229;
+  color: #BCF5D0;
+}
+
+nav a,
+footer a {
+  transition: all 0.25s ease-in-out;
+}
+
+nav:hover,
+footer:hover {
+  filter: brightness(1.02);
+}
+
+nav {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}

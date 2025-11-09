@@ -1,0 +1,23 @@
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+  box-shadow: 0 6px 10px #0a5c02a5;
+}
+
+.nav-link {
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #000000;
+}
+
+.mobile-link {
+  display: block;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-link:hover {
+  background-color: #A5D6A7;
+}

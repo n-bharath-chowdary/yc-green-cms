@@ -1,0 +1,18 @@
+.blog-feed-card {
+  background-color: #005826;
+  color: #BCF5D0;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+.blog-feed-card:hover {
+  transform: translateY(-4px);
+  background-color: #399229;
+  border-color: #44FF00;
+}
+
+.blog-feed-card img {
+  transition: all 0.4s ease;
+}
+.blog-feed-card:hover img {
+  filter: brightness(1.05);
+}

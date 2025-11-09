@@ -1,0 +1,33 @@
+.about-card {
+  background-color: #278450;
+  color: #BCF5D0;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(34, 66, 30, 0.15);
+}
+.about-card:hover {
+  background-color: #399229;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(34, 66, 30, 0.25);
+}
+
+.team-card {
+  background-color: rgb(66, 174, 66);
+  color: #22421E;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 6px 10px rgba(19, 63, 13, 0.831);
+  transition: all 0.3s ease;
+}
+.team-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 16px rgba(15, 88, 5, 0.813);
+}
+.cta-section {
+  transition: all 0.3s ease;
+}
+.cta-section:hover {
+  box-shadow: 0 8px 20px rgba(34, 66, 30, 0.25);
+}

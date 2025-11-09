@@ -1,0 +1,12 @@
+.hero {
+  background: #BAFFC1;
+}
+.stats-section {
+  transition: all 0.3s ease-in-out;
+}
+.testimonial-card:hover {
+  transform: translateY(-4px);
+}
+.counter {
+  transition: all 0.2s ease;
+}

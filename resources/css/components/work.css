@@ -1,0 +1,24 @@
+.job-card {
+  background-color: #278450;
+  color: #BCF5D0;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(34, 66, 30, 0.735);
+}
+.job-card:hover {
+  transform: translateY(-4px);
+  background-color: #399229;
+  box-shadow: 0 8px 14px rgba(34, 66, 30, 0.808);
+}
+
+.job-card h2 {
+  color: #BCF5D0;
+}
+
+.job-card a {
+  box-shadow: 0 2px 5px rgba(34,66,30,0.2);
+}
+
+.job-card a:hover {
+  box-shadow: 0 4px 10px rgba(34,66,30,0.3);
+}

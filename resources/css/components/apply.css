@@ -1,0 +1,71 @@
+/* Inputs */
+.apply-input{
+  width:100%;
+  background:#BCF5D0;
+  color:#22421E;
+  padding:10px 14px;
+  border-radius:8px;
+  border:2px solid #399229;
+  transition:all .2s ease;
+}
+.apply-input::placeholder{opacity:.8}
+.apply-input:focus{
+  outline:none;
+  border-color:#44FF00;
+  background:#8CFF98;
+}
+
+/* Steps */
+.apply-step{transition:opacity .25s ease}
+.apply-step.hidden{display:none;opacity:0}
+.apply-step.active{display:block;opacity:1}
+
+/* Validation */
+.apply-error{
+  margin-top:.25rem;
+  font-size:.875rem;
+  color:#22421E;
+  background:linear-gradient(0deg, rgba(68,255,0,.15), rgba(68,255,0,.15));
+  border-left:3px solid #44FF00;
+  padding:.35rem .5rem;
+  border-radius:.25rem;
+  display:none;
+}
+
+/* Buttons */
+.apply-btn-primary{
+  background:#44FF00;
+  color:#22421E;
+  font-weight:600;
+  padding:.6rem 1rem;
+  border-radius:.5rem;
+  transition:all .2s ease;
+}
+.apply-btn-primary:hover{background:#399229;color:#BCF5D0}
+
+.apply-btn-secondary{
+  background:#399229;
+  color:#BCF5D0;
+  font-weight:600;
+  padding:.6rem 1rem;
+  border-radius:.5rem;
+  transition:all .2s ease;
+}
+.apply-btn-secondary:hover{
+  background: #217d11;
+  color: #9ce8b7;
+}
+
+.apply-btn-outline{
+  background:transparent;
+  color:#22421E;
+  border:2px solid #44FF00;
+  font-weight:600;
+  padding:.55rem 1rem;
+  border-radius:.5rem;
+  transition:all .2s ease;
+}
+.apply-btn-outline:hover{
+  background:#8CFF98;
+  color: #22421E;
+}

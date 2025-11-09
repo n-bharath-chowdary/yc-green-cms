@@ -1,0 +1,16 @@
+.blog-card {
+  background-color: #165b20;
+  color: #BCF5D0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 10px rgba(34, 66, 30, 0.747);
+}
+.blog-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  background-color: #284223;
+  box-shadow: 0 6px 14px rgba(34,66,30,0.25);
+}
+.blog-card img {
+  height: 180px;
+}

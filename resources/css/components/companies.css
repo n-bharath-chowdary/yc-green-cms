@@ -1,0 +1,33 @@
+.company-card {
+  background-color: #005726;
+  color: #BCF5D0;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 1rem;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(34, 66, 30, 0.2);
+}
+.company-card:hover {
+  transform: translateY(-4px);
+  background-color: #427f38;
+  box-shadow: 0 6px 14px rgba(34, 66, 30, 0.3);
+}
+
+.filter-btn {
+  background-color: #164d03;
+  color: #8db288;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+.filter-btn:hover {
+  background-color: #58ba46;
+  color: #01521d;
+}
+.filter-btn.active {
+  background-color: #179a00;
+  color: #BCF5D0;
+  transform: scale(1.05);
+}
