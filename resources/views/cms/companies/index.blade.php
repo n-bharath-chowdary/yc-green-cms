@@ -33,7 +33,7 @@
             <form action="{{ route('admin.companies.destroy', $company->id) }}" method="POST" class="inline">
               @csrf
               @method('DELETE')
-              <button type="submit" onclick="return confirm('Delete this company?')" class="text-red-600 p-1 rounded hover:text-red-800 font-semibold">Delete</button>
+              <button type="submit" onclick="return confirm('Delete this company?')" class="text-red-600 p-1 rounded-lg hover:text-red-800 font-semibold">Delete</button>
             </form>
           </td>
         </tr>
