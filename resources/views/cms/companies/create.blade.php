@@ -37,7 +37,7 @@
     </div>
 
     <div>
-      <label class="block text-[#22421E] font-semibold mb-1">Website</label>
+      <label class="block text-[#22421E] font-semibold mb-1">Website Link</label>
       <input type="text" name="website" class="w-full p-2 rounded border border-[#278450]">
     </div>
 
