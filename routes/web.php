@@ -38,7 +38,7 @@ Route::get('/work', function () {
 
 Route::get('/dashboard', fn() => view('dashboard'))
     ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+    ->name('pages.home');
 
 // Authenticated user routes
 Route::middleware('auth')->group(function () {
